@@ -68,6 +68,15 @@ background-size: 400% 400%;
   font-weight: 1000;
   font-size: 1.25rem;
   }
+main {
+  flex: 1;
+  max-width: 1300px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  display: grid;
+  gap: 3rem;
+  animation: fadeIn 1.5s ease-in-out;
+}
 
 .main-nav a:hover {
   transform: translateY(-3px);
@@ -180,6 +189,11 @@ background-size: 400% 400%;
   object-fit: cover; 
   border-radius: 10px; 
 }
+img:hover {
+  transform: scale(1.04);
+  border-color: var(--gold);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.25);
+}
 
 /* Formulär */
 .payform {
@@ -250,4 +264,5 @@ background-size: 400% 400%;
   align-items: center;
   z-index: 1000;
 }
+
 
